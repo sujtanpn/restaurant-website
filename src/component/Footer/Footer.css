@@ -1,0 +1,34 @@
+.footer-1 {
+    width: 100%;
+    height: 30vh;
+    display: grid;
+   padding: 70px 0;
+    background-color: rgb(5, 5, 41);
+    grid-template-columns: 40rem 30rem 10rem;
+  }
+  .first-row{
+    grid-column: 2/3;
+    color: aliceblue;
+  }
+  .social-media-icon{
+    display: flex;
+    font-size: 3rem;
+    margin-top: 8px;
+  }
+  h1{
+    font-size: 30px;
+  }
+
+
+  h3{
+    font-size: 15px;
+  }
+  .contact{
+    margin-top: 8px;
+  }
+  .second-row{
+    grid-column: 4/4;
+    color: aliceblue;
+    line-height: 4rem;
+
+  }
