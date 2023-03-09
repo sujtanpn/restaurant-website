@@ -35,7 +35,13 @@ const Footer = () => {
                 <h3>info@myste.com</h3>
             </div>
         </div>
-        <div className='second-row'>
+        <div className="second-row">
+          <h2>
+            <span>M</span>y
+            <span>R</span>estaurant
+          </h2>
+        </div>
+        <div className='third-row'>
             <h1>Visit</h1>
             <div className="time">
                 <h2>Mon - Fri: 11am - 10pm</h2>

@@ -7,11 +7,12 @@
     grid-template-columns: 40rem 30rem 10rem;
   }
   .first-row{
-    grid-column: 2/3;
+    grid-column: 2/4;
     color: aliceblue;
   }
   .social-media-icon{
     display: flex;
+    gap: 9px;
     font-size: 3rem;
     margin-top: 8px;
   }
@@ -26,8 +27,35 @@
   .contact{
     margin-top: 8px;
   }
+  .second-row {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-left: 60px;
+  }
+  
+.second-row h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.second-row h2 span {
+  font-size: 3.5rem;
+}
+
+  
   .second-row{
     grid-column: 4/4;
+    color: aliceblue;
+    line-height: 4rem;
+
+  }
+  .third-row{
+    grid-column: 5/6;
     color: aliceblue;
     line-height: 4rem;
 

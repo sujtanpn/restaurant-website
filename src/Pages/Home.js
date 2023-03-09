@@ -1,7 +1,9 @@
 import React from 'react'
 import Herosection from '../component/Herosection/Herosection'
-import Navbar from '../component/Navbar/Navbar'
-import Footer from '../component/Footer/Footer'
+
+
+import About from './About/About'
+
 
 
 
@@ -12,9 +14,9 @@ const Home = () => {
   }
   return (
     <div>
-        <Navbar />
         <Herosection { ... data}/>
-        <Footer />
+        <About />
+        
       
       
         

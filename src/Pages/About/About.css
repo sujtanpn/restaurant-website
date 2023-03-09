@@ -1,0 +1,30 @@
+.about{
+    display: flex;
+    padding: 20rem 40rem;
+    font-size: 14px;
+}
+.left{
+ padding: 0 60px;
+ text-align: right;
+ 
+}
+.image img{
+   
+    height: 50vh;
+    margin-top: -30px;
+}
+.custom_button{
+ padding: 2px 15px;
+ margin-top: 20px;
+ background-color: black;
+ color: aliceblue;
+ border: none;
+ 
+}
+.custom_button:hover{
+    background-color: rgb(110, 110, 110);
+}
+.right{
+    padding: 0 60px;
+}
+    

@@ -47,26 +47,33 @@ li {
 }
 
 .social-media {
-  grid-column: 4/5;
+  grid-column: 4/4;
+ 
 }
 
 .social-media ul {
   height: 10rem;
   display: grid;
-  grid-template-columns: 3fr repeat(3, 1fr);
+  grid-template-columns: 3fr repeat(2, 5fr);
   align-items: center;
   justify-content: flex-end;
+ 
 }
 
-.social-media ul li {
+.social-media ul li  {
   text-align: right;
+  
+}
+.social-media ul li a  {
+  color: rgb(59, 59, 59);
 }
 
 .social-media ul li:first-child {
   grid-column: 2/3;
+  
 }
 
-/* ----------- Grid part ends ----------------- */
+
 
 .logo h2 {
   font-size: 2.5rem;

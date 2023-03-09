@@ -33,11 +33,12 @@ const Navbar = () => {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/service">Contact</NavLink>
-            </li>
-            <li>
               <NavLink to="/contact">Menu</NavLink>
             </li>
+            <li>
+              <NavLink to="/service">Contact</NavLink>
+            </li>
+           
           </ul>
         </div>
 
@@ -48,23 +49,17 @@ const Navbar = () => {
               <a
                 href=""
                 target="">
-                <FaFacebookSquare className="facebook" />
+                Log In / Registration
               </a>
             </li>
             <li>
               <a
                 href=""
                 target="">
-                <FaInstagramSquare className="instagram" />
+                Book a Table
               </a>
             </li>
-            <li>
-              <a
-                href=""
-                target="">
-                <FaYoutubeSquare className="youtube" />
-              </a>
-            </li>
+           
           </ul>
 
           <div className="hamburger-menu">
