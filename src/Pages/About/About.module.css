@@ -1,6 +1,6 @@
 .about{
     display: flex;
-    padding: 20rem 40rem;
+    padding: 14rem 60rem;
     font-size: 14px;
 }
 .left{
@@ -8,16 +8,18 @@
  text-align: right;
  
 }
+
 .image img{
    
     height: 50vh;
     margin-top: -30px;
 }
 .custom_button{
- padding: 2px 15px;
+ padding: 9px 24px;
  margin-top: 20px;
- background-color: black;
- color: aliceblue;
+ font-size: 17px;
+ background-color: #e2b36c;
+ color: white;
  border: none;
  
 }
@@ -26,5 +28,18 @@
 }
 .right{
     padding: 0 60px;
+}
+h1{
+    font-size: smaller;
+    font-style: italic;
+    color: #e2b36c;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 17px;
+  
+    line-height: 1.8em;
 }
     

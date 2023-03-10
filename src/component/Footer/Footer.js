@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Footer.css";
+import styles from "./Footer.module.css";
 import {
     FaFacebook,
     FaInstagram,
@@ -7,14 +7,12 @@ import {
  import { NavLink } from "react-router-dom";
 
 const Footer = () => {
-    
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
    <>
-    <footer className='footer-1'>
-        <div className='first-row'>
+    <footer className={styles.footer1}>
+        <div className={styles.firstrow}>
             <h1>Connect</h1>
-            <div className='social-media-icon'>
+            <div className={styles.socialmediaicon}>
             <li>
               <a
                 href=""
@@ -30,20 +28,21 @@ const Footer = () => {
               </a>
             </li>
             </div>
-            <div className='contact'>
+            <div className={styles.contact}>
                 <h2>123456789</h2>
                 <h3>info@myste.com</h3>
             </div>
         </div>
-        <div className="second-row">
+        <div className={styles.secondrow}>
           <h2>
             <span>M</span>y
             <span>R</span>estaurant
           </h2>
+          <h4>  We offer best good and a great time</h4>
         </div>
-        <div className='third-row'>
+        <div className={styles.thirdrow}>
             <h1>Visit</h1>
-            <div className="time">
+            <div className={styles.time}>
                 <h2>Mon - Fri: 11am - 10pm</h2>
                 <h3>Sat - Sun: 11am - 12pm</h3>
             </div>

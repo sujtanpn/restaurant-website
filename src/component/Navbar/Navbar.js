@@ -6,6 +6,7 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import background from '../../images/background.jpeg'
 
 import { NavLink } from "react-router-dom";
 
@@ -36,6 +37,12 @@ const Navbar = () => {
               <NavLink to="/contact">Menu</NavLink>
             </li>
             <li>
+              <NavLink to="/contact"> Events</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Gallery</NavLink>
+            </li>
+            <li>
               <NavLink to="/service">Contact</NavLink>
             </li>
            
@@ -45,13 +52,7 @@ const Navbar = () => {
    
         <div className="social-media">
           <ul className="social-media-desktop">
-            <li>
-              <a
-                href=""
-                target="">
-                Log In / Registration
-              </a>
-            </li>
+          
             <li>
               <a
                 href=""
@@ -69,6 +70,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className="hero-section">
+        <img src={background} />
+      </div>
 
      
     </>

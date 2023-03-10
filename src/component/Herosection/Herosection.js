@@ -14,7 +14,7 @@ const Herosection = ({image, name}) => {
 
         <div className="section-hero-image">
           <picture>
-            <img src={image} alt="hero image" className="hero-img " />
+           
           </picture>
         </div>
       </div>

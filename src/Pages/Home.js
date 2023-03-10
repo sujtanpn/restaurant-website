@@ -3,6 +3,7 @@ import Herosection from '../component/Herosection/Herosection'
 
 
 import About from './About/About'
+import Process from '../component/process/Process'
 
 
 
@@ -14,12 +15,9 @@ const Home = () => {
   }
   return (
     <div>
-        <Herosection { ... data}/>
+        
         <About />
-        
       
-      
-        
     </div>
   )
 }
