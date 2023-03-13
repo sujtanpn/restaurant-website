@@ -1,0 +1,49 @@
+.onlinereservation h1{
+    margin-left: 46%;
+}.table{
+    padding: 0 35%;
+
+}
+.name{
+    padding: 5px 5px;
+    
+    
+ 
+}
+.name input[type="text"]{
+    padding: 15px 219px;
+    font-size: 15px;
+    border-radius: 1px solid rgb(20, 16, 16);
+  
+}
+.second{
+    display: flex;
+}
+.second input[type="text"],input[type="number"]{
+    padding: 15px 70px;
+    font-size: 15px;
+}
+.second input[type="date"]{
+    padding: 15px 75px;
+    font-size: 15px;
+
+}
+.second input[type="time"]{
+    padding: 15px 94px;
+    font-size: 15px;
+}
+.second ul{
+    padding: 5px 5px;
+}
+.book{
+    padding: 15px 30px;
+    margin: 20px 199px;
+    font-size: 17px;
+    background-color: #e2b36c;
+    color: white;
+    border: none;
+
+}
+.book:hover{
+    background-color: rgb(110, 110, 110);
+}

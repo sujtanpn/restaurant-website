@@ -34,16 +34,16 @@ const Navbar = () => {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Menu</NavLink>
+              <NavLink to="/menu">Menu</NavLink>
             </li>
             <li>
-              <NavLink to="/contact"> Events</NavLink>
+              <NavLink to="/event"> Events</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Gallery</NavLink>
+              <NavLink to="/gallery">Gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/service">Contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
            
           </ul>
