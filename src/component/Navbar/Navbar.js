@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="logo">
           <h2>
             <span>M</span>y
-            <span>R</span>estaurant
+            <span>R</span>estaurantjhbuuhjhjhh
           </h2>
         </div>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
               <NavLink to="/menu">Menu</NavLink>
             </li>
             <li>
-              <NavLink to="/event"> Events</NavLink>
+              <NavLink to="/events"> Events</NavLink>
             </li>
             <li>
               <NavLink to="/gallery">Gallery</NavLink>

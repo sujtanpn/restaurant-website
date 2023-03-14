@@ -30,9 +30,9 @@
     padding: 0 60px;
 }
 h1{
-    font-size: smaller;
+    font-size: 25px;
     font-style: italic;
-    color: #e2b36c;
+    color: #e9ae56;
 }
 h2{
     font-size: 30px;
@@ -42,4 +42,15 @@ p{
   
     line-height: 1.8em;
 }
-    
+h6{
+    font-size: 25px;
+    font-style: italic;
+    color: #e9ae56;
+} 
+h7{
+   font-size: 30px; 
+}
+h8{
+    font-size: 17px;
+    line-height: 1.8em;
+}

@@ -11,7 +11,7 @@ const Footer = () => {
    <>
     <footer className={styles.footer1}>
         <div className={styles.firstrow}>
-            <h1>Connect</h1>
+            <h10>Connect</h10>
             <div className={styles.socialmediaicon}>
             <li>
               <a
@@ -29,22 +29,22 @@ const Footer = () => {
             </li>
             </div>
             <div className={styles.contact}>
-                <h2>123456789</h2>
+                <h11>123456789</h11>
                 <h3>info@myste.com</h3>
             </div>
         </div>
         <div className={styles.secondrow}>
-          <h2>
+          <h12>
             <span>M</span>y
             <span>R</span>estaurant
-          </h2>
-          <h4>  We offer best good and a great time</h4>
+          </h12>
+          <h13>  We offer best good and a great time</h13>
         </div>
         <div className={styles.thirdrow}>
-            <h1>Visit</h1>
+            <h10>Visit</h10>
             <div className={styles.time}>
-                <h2>Mon - Fri: 11am - 10pm</h2>
-                <h3>Sat - Sun: 11am - 12pm</h3>
+                <h11>Mon - Fri: 11am - 10pm<br></br>
+                Sat - Sun: 11am - 12pm</h11>
             </div>
 
         </div>

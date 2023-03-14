@@ -7,6 +7,7 @@ const Reservation = () => {
         <h1>Make a Reservation</h1>
         <h2>Online Reservation</h2>
         <div className={styles.table}>
+            <div className={styles.form}>
             <div className={styles.name}>
                 <input type='text' placeholder='Name'/>
             </div>
@@ -26,6 +27,7 @@ const Reservation = () => {
                 <ul><input type='time' placeholder='Check in Time'/></ul>
             </div>
             <button className={styles.book}>BOOK A TABLE</button>
+        </div>
         </div>
       
     </div>

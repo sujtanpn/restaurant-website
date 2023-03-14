@@ -19,7 +19,7 @@ const Process = () => {
             <div className={styles.card1}>
              <img src={bar} alt=" image" className="bar " />
              <h3>Clean Bar</h3>
-            <p>Clean Bar, Food Safety and General Facility Sanitation have always been top priorities to our restaurant.</p>
+            <span>Clean Bar, Food Safety and General Facility Sanitation have always been top priorities to our restaurant.</span>
             <img src={barr} className={styles.barr} />
             </div>
         </div>
@@ -27,7 +27,7 @@ const Process = () => {
             <div className={styles.card1}>
              <img src={restaurant} alt=" image" className="bar " />
              <h3>Skilled Chefs</h3>
-            <p>Our Chefs are a team of culinary talent that bring their own unique cooking styles and flavours to our restaurant.</p>
+            <span>Our Chefs are a team of culinary talent that bring their own unique cooking styles and flavours to our restaurant.</span>
             <img src={skill} className={styles.barr} />
             </div>
         </div>
@@ -35,7 +35,7 @@ const Process = () => {
             <div className={styles.card1}>
              <img src={card3} alt=" image" className="bar " />
              <h3>Fresh Products</h3>
-            <p>Our menus are tailored appropriately to season and availibity. Changing daily, we use the highest quality of produce, cooked with care.</p>
+            <span>Our menus are tailored appropriately to season and availibity. Changing daily, we use the highest quality of produce, cooked with care.</span>
             <img src={fresh} className={styles.barr} />
             </div>
         </div>
