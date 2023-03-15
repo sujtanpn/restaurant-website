@@ -123,6 +123,19 @@ li {
 .youtube {
   color: #ff0000;
 }
+.book{
+  margin-top: 35px;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: #e2b36c;
+  color: white;
+  border: none;
+  transition: 0.5s ease;
+
+}
+.book:hover{
+  background-color: rgb(110, 110, 110);
+}
 
 /* hero section   */
 

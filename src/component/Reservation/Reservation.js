@@ -3,7 +3,7 @@ import styles from './reservation.module.css'
 
 const Reservation = () => {
   return (
-    <div className={styles.onlinereservation}>
+    <div className={styles.onlinereservation} >
         <h1>Make a Reservation</h1>
         <h2>Online Reservation</h2>
         <div className={styles.table}>

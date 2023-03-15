@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+}
+.contact{
+    
+    padding: 40px 10rem;
+}
+.content h1{
+    padding: 0 31px;
+}
+
+
+.info{
+   margin-left: 32rem;
+}
+.info ul{
+    display: flex;
+  
+    
+}
+.info ul li{
+    font-size: 16px;
+    margin: 5px 10px;
+}
+ul .icon{
+    color: #e2b36c;
+}
+.form{
+    background-color: #F7F2E9;
+    width: 40%;
+    padding: 20px 55px;
+   
+}
+
+.name input[type="text"]{
+    
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #F7F2E9 ;
+    padding: 15px 219px;
+    font-size: 15px;
+    border-radius: 1px  rgb(20, 16, 16);
+  
+}
+.name input[placeholder="Name"]{
+    
+}
+
+.second input[type="text"]{
+    border-style: solid;
+    background-color: #F7F2E9 ;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 219px;
+    font-size: 15px;
+}
+
+.second {
+    padding:  3px 0;
+}
+.book{
+    padding: 15px 30px;
+    margin: 20px 199px;
+    font-size: 17px;
+    background-color: #e2b36c;
+    color: white;
+    border: none;
+
+}
+.book:hover{
+    background-color: rgb(110, 110, 110);
+}
+.third input[type="text"]{
+    border-style: solid;
+    background-color: #F7F2E9 ;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px 0px 0px 0px;
+    padding: 50px 223px;
+}
+.google{
+    padding: 20px;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+  
+}

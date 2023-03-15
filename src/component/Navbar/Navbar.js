@@ -8,9 +8,14 @@ import {
 import { GiHamburgerMenu } from "react-icons/gi";
 import background from '../../images/background.jpeg'
 
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({data}) => {
+  const navigate=useNavigate()
+  const handleClick = () => {
+    data.current.scrollIntoView({behavior:"smooth"})
+
+  }
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
@@ -51,18 +56,7 @@ const Navbar = () => {
 
    
         <div className="social-media">
-          <ul className="social-media-desktop">
-          
-            <li>
-              <a
-                href=""
-                target="">
-                Book a Table
-              </a>
-            </li>
-           
-          </ul>
-
+            <button onClick={handleClick} className="book">Book a Table</button>
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />
