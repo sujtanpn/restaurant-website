@@ -5,6 +5,13 @@ import {
     FaInstagram,
 } from "react-icons/fa";
  import { NavLink } from "react-router-dom";
+ import {
+  BsTelephone,
+} from "react-icons/bs";
+import {
+  HiOutlineMail,
+} from "react-icons/hi";
+
 
 const Footer = () => {
   return (
@@ -12,25 +19,27 @@ const Footer = () => {
     <footer className={styles.footer1}>
         <div className={styles.firstrow}>
             <h10>Connect</h10>
-            <div className={styles.socialmediaicon}>
-            <li>
+            <div className={styles.mediaicon}>
               <a
                 href=""
                 target="">
                 <FaFacebook className="facebook" />
               </a>
-            </li>
-            <li>
               <a
                 href=""
                 target="">
                 <FaInstagram className="instagram" />
               </a>
-            </li>
             </div>
             <div className={styles.contact}>
-                <h11>123456789</h11>
-                <h3>info@myste.com</h3>
+                <ul>
+                  <li className={styles.icons}><BsTelephone /></li>
+                  <li>123456789</li>
+                </ul>
+                <ul>
+                  <li className={styles.icons}><HiOutlineMail /></li>
+                  <li>info@gmail.com</li>
+                </ul>
             </div>
         </div>
         <div className={styles.secondrow}>
@@ -43,8 +52,8 @@ const Footer = () => {
         <div className={styles.thirdrow}>
             <h10>Visit</h10>
             <div className={styles.time}>
-                <h11>Mon - Fri: 11am - 10pm<br></br>
-                Sat - Sun: 11am - 12pm</h11>
+                <h11>Mon - Fri: 7am - 10pm<br />
+                Sat - Sun: 7am - 12pm</h11>
             </div>
 
         </div>

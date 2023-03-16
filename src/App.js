@@ -10,6 +10,7 @@ import Reservation from './component/Reservation/Reservation'
 import Footer from './component/Footer/Footer'
 import Events from './Pages/Events'
 import Contact from './Pages/Contact/Contact'
+import Herosection from './component/Herosection/Herosection'
 
 
 

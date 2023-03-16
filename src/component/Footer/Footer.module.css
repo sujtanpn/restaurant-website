@@ -1,37 +1,47 @@
 .footer1 {
     width: 100%;
-    height: 30vh;
-    display: grid;
-   padding: 70px 0;
-    background-color: rgb(10, 10, 31);
-    grid-template-columns: 40rem 30rem 10rem;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+   padding: 70px 0rem;
+    background-color: #151920;
   }
   .firstrow{
-    grid-column: 2/4;
     color: aliceblue;
-  }
-  .socialmediaicon{
-    display: flex;
-    gap: 9px;
-    font-size: 3rem;
+    
   }
   h10{
     font-size: 30px;
   }
+  .mediaicon {
+    display: flex;
+    margin-top: 5px;
+    gap: 9px;
+    font-size: 2.5rem;
+  }
   h11{
     font-size: 18px;
   }
-  h3{
+ h3{
     font-size: 15px;
   }
-  .contact{
-    margin-top: 8px;
+
+  .contact ul{
+    display: flex;
+    gap: 9px;
+  }
+  .contact ul li{
+    font-size: 16px;
+  }
+  .contact ul .icons{
+    color: #e2b36c;
   }
   .secondrow {
-    display: grid;
-    justify-content: start;
-    align-items: center;
-    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+    margin-top: 40px;
+    text-align: center;
   }
   
 .secondrow h12 {
@@ -47,21 +57,15 @@
   font-size: 3.5rem;
 }
 .secondrow h13{
-  font-size: 19px;
-  margin-left: -80px;
+  
+  font-size: 17px;
+  color: aliceblue;
   font-family: 'Courier New', Courier, monospace;
 }
-
-  
-  .secondrow{
-    grid-column: 4/4;
-   color: whitesmoke;
-    
-
-  }
-  .thirdrow{
-    grid-column: 5/6;
-    color: aliceblue;
-  
-
-  }
+.thirdrow{
+  color: aliceblue;
+  line-height: 30px;
+}
+.time{
+  font-size: 40px;
+}

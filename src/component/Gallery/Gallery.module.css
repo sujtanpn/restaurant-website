@@ -11,6 +11,23 @@
     position: relative;
     margin-left: 50%;
 }
+.button{
+    display: flex;
+    margin-left: 40%;
+    gap: 40px;
+    padding: 10px 0;
+}
+.button .btn{
+    padding: 15px 30px;
+    font-size: 17px;
+    background-color: #e2b36c;
+    color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+.button .btn:hover{
+    background-color: rgb(110, 110, 110);
+}
 .inside{
     padding:20px 30rem;
     display: flex;

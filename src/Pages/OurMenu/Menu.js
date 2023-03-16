@@ -5,6 +5,7 @@ const Menu = () => {
   return (
     <div className={styles.menu}>
         <p>Menu Prices Included All Taxes</p>
+        <hr />
       <div className={styles.foodmenu}>
         <h1>Our Food Menu</h1>
         <div className={styles.soup}>

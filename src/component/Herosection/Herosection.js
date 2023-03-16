@@ -1,23 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Herosection.css'
+import background from '../../images/background.jpeg'
 
 
 const Herosection = ({image, name}) => {
     return (
       <section>
-      <div className="container grid grid-two-column">
-        <div className="section-hero-data">
-          <div>{name}</div>
-        </div>
-       
-
-        <div className="section-hero-image">
-          <picture>
-           
-          </picture>
-        </div>
-      </div>
+         <div className="hero-section" styles={{background:"#151920BD"}}>
+           <img src={background} />
+         </div>
+         <div className="content">
+          <h4>
+          {name}
+          </h4>
+         </div>
     </section>
   );
 };

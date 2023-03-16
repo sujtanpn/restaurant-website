@@ -6,7 +6,7 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-import background from '../../images/background.jpeg'
+
 
 import { NavLink, useNavigate } from "react-router-dom";
 
@@ -64,9 +64,7 @@ const Navbar = ({data}) => {
           </div>
         </div>
       </nav>
-      <div className="hero-section">
-        <img src={background} />
-      </div>
+   
 
      
     </>
