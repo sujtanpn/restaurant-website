@@ -23,6 +23,7 @@ const App = () => {
   return (
     <BrowserRouter>
     <Navbar data={sref} />
+    <Herosection />
       <Routes>
         <Route index element={<Home />}/>
         <Route path='/about' element={<About />}/>

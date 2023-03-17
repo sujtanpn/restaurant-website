@@ -3,6 +3,7 @@ import styles from './About.module.css';
 import knife from '../../images/knife.png';
 import Process from '../../component/process/Process'
 import { useNavigate } from 'react-router-dom';
+import Herosection from '../../component/Herosection/Herosection';
 
 function About() {
   const navigate=useNavigate();
@@ -22,6 +23,7 @@ function About() {
     </div>
     <Process />
     </div>
+   
   )
  
   

@@ -9,13 +9,10 @@ const Home = () => {
 
   return (
     <div>
-        <Herosection name='Welcome to our homepage'/>
+        {/* <Herosection name='Welcome to our homepage'/> */}
         <About />
         <Event />
         <Gallery />
-        
-        
-      
     </div>
   )
 }

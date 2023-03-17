@@ -1,9 +1,6 @@
 .process{
     background-color: #C8A96A26;
 }
-.process_inside{
-    padding: 30px 0;
-}
 .process h1{
     margin-left: 50%;
 }
@@ -29,22 +26,16 @@
     background-color: rgb(110, 110, 110);
 }
 .inside{
-    padding:20px 30rem;
-    display: flex;
-    flex-wrap: wrap;
 }
 .card{
-  
-    margin: 10px 10px;
-    width: 31%;
-    height: 50vh;
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
-    background-color: white;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30rem;
 }
 .card1{
+    width: 33%;
+    padding: 20px;
     
-    position: relative;
 }
 .card1 img{
     width: 100%;
